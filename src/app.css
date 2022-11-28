@@ -1,0 +1,5 @@
+@import '@setel/portal-ui/dist/styles.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

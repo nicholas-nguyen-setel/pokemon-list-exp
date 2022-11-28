@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "sprite": "https://pokemon-json.herokuapp.com/sprites/001MS.png",
+    "thumbnail": "https://pokemon-json.herokuapp.com/thumbnails/001Bulbasaur.png"
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "sprite": "https://pokemon-json.herokuapp.com/sprites/002MS.png",
+    "thumbnail": "https://pokemon-json.herokuapp.com/thumbnails/002Ivysaur.png"
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "sprite": "https://pokemon-json.herokuapp.com/sprites/003MS.png",
+    "thumbnail": "https://pokemon-json.herokuapp.com/thumbnails/003Venusaur.png"
+  }
+]

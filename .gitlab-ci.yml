@@ -1,0 +1,7 @@
+include:
+  - project: 'setel/infra/pipelines'
+    file: 'nodejs/web.gitlab-ci.yml'
+
+variables:
+  MICROFRONTEND: 'true'
+  DOCKER_IMAGE_NAME: node:14-alpine
