@@ -1,2 +1,11 @@
+appUrl:
+  webcommon: https://web-bundles.setel.my/dev/web-common/latest
+  webdebug: https://web-bundles.setel.my/dev/web-debug/latest
+
+siteUrl: ''
+
 baseUrl:
   apiIam: 'https://api.prod.setel.my'
+
+flag:
+  environment: prod

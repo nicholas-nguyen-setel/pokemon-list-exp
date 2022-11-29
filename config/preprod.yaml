@@ -1,2 +1,11 @@
+appUrl:
+  webcommon: https://web-bundles.setel.my/dev/web-common/latest
+  webdebug: https://web-bundles.setel.my/dev/web-debug/latest
+
+siteUrl: ''
+
 baseUrl:
   apiIam: 'https://api.pre-prod2.setel.my'
+
+flag:
+  environment: preprod
