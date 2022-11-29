@@ -1,6 +1,6 @@
 appUrl:
-  webcommon: https://web-bundles.setel.my/dev/web-common/latest
-  webdebug: https://web-bundles.setel.my/dev/web-debug/latest
+  webCommon: https://web-bundles.setel.my/dev/web-common/latest
+  webDebug: https://web-bundles.setel.my/dev/web-debug/latest
 
 siteUrl: ''
 

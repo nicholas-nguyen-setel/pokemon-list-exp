@@ -1,2 +1,20 @@
 baseUrl:
-  apiIam: API_IAM_BASE_URL
+  apiOps: API_OPS_BASE_URL
+  apiConnect: API_CONNECT_BASE_URL
+  setelConnect: SETEL_CONNECT_URL
+  apiBaseUrl: API_BASE_URL
+  apiVerifications: API_VERIFICATIONS_BASE_URL
+
+appUrl:
+  webCommon: WEB_COMMON_APP_URL
+  webDebug: WEB_DEBUG_APP_URL
+
+siteUrl: SITE_URL
+
+setelConnect:
+  clientId: OAUTH_CLIENT_ID
+  scope: OAUTH_SCOPE
+  responseType: OAUTH_CODE
+
+flag:
+  environment: ENVIRONMENT_NAME

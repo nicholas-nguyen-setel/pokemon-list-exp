@@ -1,4 +1,3 @@
-// @ts-check
 require('dotenv').config(); // load .env file on root, if available
 const config = require('config');
 const { defineConfig } = require('@setel/web-scripts');
@@ -12,8 +11,8 @@ module.exports = defineConfig({
     pageTitle: 'Deliver2Me',
     pageDescription: 'Deliver2Me for offices mini app',
 
-    webCommonUrl: config.get('appUrl.webcommon'),
-    webDebugUrl: config.get('appUrl.webdebug'),
+    webCommonUrl: config.get('appUrl.webCommon'),
+    webDebugUrl: config.get('appUrl.webDebug'),
     siteUrl: process.env.NODE_ENV === 'development' ? DEFAULT_LOCAL_URL : config.get('siteUrl'),
 
     environment: config.get("flag.environment"),
@@ -21,5 +20,5 @@ module.exports = defineConfig({
     // Need to define name of list url from config/*.yml
 
   },
-  remotes: ['web-common', 'web-debug'],
+  remotes: ['web-common', 'web-auth',],
 });

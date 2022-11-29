@@ -3,13 +3,16 @@
     "module": "ESNext",
     "target": "ESNext",
     "moduleResolution": "node",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "noEmit": true,
     "isolatedModules": true,
-    "baseUrl": "src",
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,7 +21,17 @@
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
     "jsxImportSource": "@emotion/react",
-    "paths": {}
+    "baseUrl": "src",
+    "paths": {},
+    "types": []
   },
-  "include": ["src"]
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  },
+  "include": [
+    "src",
+    "scripts"
+  ]
 }

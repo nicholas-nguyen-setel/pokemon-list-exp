@@ -2,7 +2,6 @@
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
-  parser: '@typescript-eslint/parser',
   extends: 'react-app',
   rules: {
     'import/no-default-export': 'error',

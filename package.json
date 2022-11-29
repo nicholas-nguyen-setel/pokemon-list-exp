@@ -37,6 +37,7 @@
     "@setel/web-common": "^1.108.1",
     "@setel/web-debug": "^1.82.0",
     "@setel/web-scripts": "^2.7.3",
+    "@setel/web-auth": "^1.82.0",
     "@testing-library/cypress": "^8.0.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.2.7",
